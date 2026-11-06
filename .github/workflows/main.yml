@@ -42,7 +42,7 @@ jobs:
         run: git status
 
       - name: Push new files to output branch 
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           # the output branch we mentioned above
           target_branch: output
